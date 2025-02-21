@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-image: url(beach-waves-night-palm-trees-starry-sky-scenery-digital-art-4k-wallpaper-uhdpaper.com-11@0@j.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #d8aeae;
+    margin-left: 90px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    margin-left: 70px;
+    color: azure;
+}
+
+input[type="email"],
+input[type="date"],
+input[type="text"],
+input[type="password"] {
+    width: 89%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #9c9c9c;
+    border-radius: 3px;
+    margin-left: 60px;
+    max-height: fit-content;
+}
+
+input[type="submit"] {
+    margin-top: 50px;
+    width: 111%;
+    padding: 15px;
+    background-color: #9c9c9c;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #9c9c9c;
+}
+
+.signup-gif {
+    margin-top: 100px;
+    margin-left: 370px;
+    width: 350px;
+    height: 350px;
+}
+
+.image-caption {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 330px;
+    margin-bottom: 50px;
+    color: rgb(229, 255, 0);
+}
