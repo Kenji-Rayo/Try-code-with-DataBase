@@ -1,0 +1,5 @@
+$ git init
+$ git add .
+$ git commit -m"added new file"
+$ git push origin
+$ git push origin main
